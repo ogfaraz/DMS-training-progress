@@ -1,36 +1,25 @@
 {
   "completed_phases": [
+    "phase2",
     "phase1"
   ],
-  "split_counts": {
-    "train": {
-      "images": 10297,
-      "labels": 10297
-    },
-    "valid": {
-      "images": 1739,
-      "labels": 1739
-    },
-    "test": {
-      "images": 1159,
-      "labels": 1159
-    }
+  "modality_counts": {
+    "grayscale": 286,
+    "ir": 100,
+    "rgb": 114
   },
-  "class_counts": {
-    "Safe_Driving": 3700,
-    "Distracted": 3000,
-    "Phone_Usage": 3100,
-    "Drowsy": 3000
+  "top_resolutions": {
+    "640x360": 241,
+    "512x512": 136,
+    "640x640": 88,
+    "640x480": 15,
+    "640x352": 8,
+    "720x1280": 4,
+    "1920x1080": 4,
+    "1080x1920": 2
   },
-  "imbalance_ratio": 1.233,
-  "class_weights": [
-    1.365,
-    1.125,
-    0.699,
-    1.055
-  ],
-  "phase": "phase1_dataset_verified",
-  "timestamp": "2026-06-02T14:23:52Z",
+  "phase": "phase2_modality_audit",
+  "timestamp": "2026-06-02T14:24:00Z",
   "model": "YOLOv11S",
   "epochs_cfg": 120
 }
