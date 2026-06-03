@@ -1,0 +1,36 @@
+[
+  {
+    "label": "phase1_dataset_verified",
+    "timestamp": "2026-06-03T07:27:17Z",
+    "completed_phases": [
+      "phase1"
+    ],
+    "split_counts": {
+      "train": {
+        "images": 10297,
+        "labels": 10297
+      },
+      "valid": {
+        "images": 1739,
+        "labels": 1739
+      },
+      "test": {
+        "images": 1159,
+        "labels": 1159
+      }
+    },
+    "class_counts": {
+      "Safe_Driving": 3700,
+      "Distracted": 3000,
+      "Phone_Usage": 3100,
+      "Drowsy": 3000
+    },
+    "imbalance_ratio": 1.233,
+    "class_weights": [
+      1.365,
+      1.125,
+      0.699,
+      1.055
+    ]
+  }
+]
