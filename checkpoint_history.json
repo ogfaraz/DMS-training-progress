@@ -32,5 +32,28 @@
       0.905,
       0.606
     ]
+  },
+  {
+    "label": "phase2_modality_audit",
+    "timestamp": "2026-06-03T07:43:33Z",
+    "completed_phases": [
+      "phase1",
+      "phase2"
+    ],
+    "modality_counts": {
+      "grayscale": 286,
+      "ir": 100,
+      "rgb": 114
+    },
+    "top_resolutions": {
+      "640x360": 241,
+      "512x512": 136,
+      "640x640": 88,
+      "640x480": 15,
+      "640x352": 8,
+      "720x1280": 4,
+      "1920x1080": 4,
+      "1080x1920": 2
+    }
   }
 ]
