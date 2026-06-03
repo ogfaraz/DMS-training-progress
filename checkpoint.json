@@ -2,19 +2,44 @@
   "completed_phases": [
     "phase3",
     "phase1",
+    "phase4",
     "phase2"
   ],
-  "training_metrics": {
-    "map50": 0.9299,
-    "map50_95": 0.6114,
-    "best_epoch": -1
+  "test_mAP50": 0.9503,
+  "test_mAP50_95": 0.6249,
+  "per_class": {
+    "Distracted": {
+      "P": 0.8296,
+      "R": 0.8966,
+      "F1": 0.8618,
+      "mAP50": 0.8965,
+      "mAP50_95": 0.5666
+    },
+    "Drowsy": {
+      "P": 0.9285,
+      "R": 0.9522,
+      "F1": 0.9402,
+      "mAP50": 0.9835,
+      "mAP50_95": 0.719
+    },
+    "Phone_Usage": {
+      "P": 0.8139,
+      "R": 0.9169,
+      "F1": 0.8623,
+      "mAP50": 0.9434,
+      "mAP50_95": 0.5717
+    },
+    "Safe_Driving": {
+      "P": 0.9383,
+      "R": 0.9674,
+      "F1": 0.9526,
+      "mAP50": 0.9776,
+      "mAP50_95": 0.6422
+    }
   },
-  "best_weights_local": "/kaggle/working/dms_train/runs/dms_yolo11s/weights/best.pt",
-  "weights_release_url": "https://github.com/ogfaraz/DMS-training-progress/releases/download/latest-weights/best.pt",
-  "resume_was_used": false,
-  "resume_ready": false,
-  "phase": "phase3_training_complete",
-  "timestamp": "2026-06-03T01:10:21Z",
+  "production_ready": true,
+  "phase": "phase4_validation_complete",
+  "timestamp": "2026-06-03T01:10:46Z",
   "model": "YOLOv11S",
   "epochs_cfg": 120
 }
