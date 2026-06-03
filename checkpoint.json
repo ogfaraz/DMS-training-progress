@@ -1,19 +1,19 @@
 {
-  "label": "epoch_60",
-  "timestamp": "2026-06-03T14:14:41Z",
+  "label": "epoch_75",
+  "timestamp": "2026-06-03T16:55:59Z",
   "completed_phases": [
-    "phase1",
-    "phase2"
+    "phase2",
+    "phase1"
   ],
   "model": "YOLOv11M",
-  "epoch": 60,
+  "epoch": 75,
   "total_epochs": 150,
-  "box_loss": 1.0118,
-  "cls_loss": 1.2597,
-  "dfl_loss": 1.3876,
-  "mAP50": 0.9242,
-  "mAP50_95": 0.6073,
-  "precision": 0.9017,
-  "recall": 0.9126,
+  "box_loss": 1.0084,
+  "cls_loss": 1.341,
+  "dfl_loss": 1.3186,
+  "mAP50": 0.9231,
+  "mAP50_95": 0.6069,
+  "precision": 0.9003,
+  "recall": 0.9262,
   "resume_ready": true
 }
