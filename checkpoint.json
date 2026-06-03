@@ -2,27 +2,17 @@
   "completed_phases": [
     "phase3",
     "phase2",
+    "phase8",
     "phase6",
     "phase1",
     "phase4"
   ],
-  "export_dir": "/kaggle/working/dms_train/exports",
-  "exported_files": [
-    "best_int8.onnx",
-    "epoch20.pt",
-    "epoch10.pt",
-    "epoch0.pt",
-    "epoch70.pt",
-    "epoch30.pt",
-    "best.pt",
-    "epoch50.pt",
-    "epoch80.pt",
-    "epoch60.pt",
-    "last.pt",
-    "epoch40.pt"
-  ],
-  "phase": "phase6_export_complete",
-  "timestamp": "2026-06-03T01:15:57Z",
+  "test_mAP50": 0.9503,
+  "test_mAP50_95": 0.6249,
+  "production_ready": true,
+  "status": "DONE",
+  "phase": "phase8_pipeline_complete",
+  "timestamp": "2026-06-03T01:15:59Z",
   "model": "YOLOv11S",
   "epochs_cfg": 120
 }
