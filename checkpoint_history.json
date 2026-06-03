@@ -131,5 +131,24 @@
     "precision": 0.9017,
     "recall": 0.9126,
     "resume_ready": true
+  },
+  {
+    "label": "epoch_75",
+    "timestamp": "2026-06-03T16:55:59Z",
+    "completed_phases": [
+      "phase2",
+      "phase1"
+    ],
+    "model": "YOLOv11M",
+    "epoch": 75,
+    "total_epochs": 150,
+    "box_loss": 1.0084,
+    "cls_loss": 1.341,
+    "dfl_loss": 1.3186,
+    "mAP50": 0.9231,
+    "mAP50_95": 0.6069,
+    "precision": 0.9003,
+    "recall": 0.9262,
+    "resume_ready": true
   }
 ]
