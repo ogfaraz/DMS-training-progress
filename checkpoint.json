@@ -1,23 +1,19 @@
 {
-  "label": "phase2_modality_audit",
-  "timestamp": "2026-06-03T07:43:33Z",
+  "label": "epoch_15",
+  "timestamp": "2026-06-03T09:22:45Z",
   "completed_phases": [
     "phase1",
     "phase2"
   ],
-  "modality_counts": {
-    "grayscale": 286,
-    "ir": 100,
-    "rgb": 114
-  },
-  "top_resolutions": {
-    "640x360": 241,
-    "512x512": 136,
-    "640x640": 88,
-    "640x480": 15,
-    "640x352": 8,
-    "720x1280": 4,
-    "1920x1080": 4,
-    "1080x1920": 2
-  }
+  "model": "YOLOv11M",
+  "epoch": 15,
+  "total_epochs": 150,
+  "box_loss": 1.2274,
+  "cls_loss": 1.8212,
+  "dfl_loss": 1.4947,
+  "mAP50": 0.8617,
+  "mAP50_95": 0.487,
+  "precision": 0.8568,
+  "recall": 0.8885,
+  "resume_ready": true
 }
