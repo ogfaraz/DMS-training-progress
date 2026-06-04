@@ -307,5 +307,24 @@
       }
     },
     "production_ready": true
+  },
+  {
+    "label": "phase6_export_complete",
+    "timestamp": "2026-06-04T10:11:18Z",
+    "completed_phases": [
+      "phase4",
+      "phase1",
+      "phase3",
+      "phase6",
+      "phase2"
+    ],
+    "export_dir": "/kaggle/working/dms_train/exports",
+    "exported_files": [
+      "best_int8.onnx",
+      "last.pt",
+      "epoch135.pt",
+      "epoch120.pt",
+      "best.pt"
+    ]
   }
 ]
