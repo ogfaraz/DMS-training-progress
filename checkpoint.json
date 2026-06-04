@@ -1,19 +1,16 @@
 {
-  "label": "phase6_export_complete",
-  "timestamp": "2026-06-04T10:11:18Z",
+  "label": "phase8_pipeline_complete",
+  "timestamp": "2026-06-04T10:11:21Z",
   "completed_phases": [
     "phase4",
+    "phase8",
     "phase1",
     "phase3",
     "phase6",
     "phase2"
   ],
-  "export_dir": "/kaggle/working/dms_train/exports",
-  "exported_files": [
-    "best_int8.onnx",
-    "last.pt",
-    "epoch135.pt",
-    "epoch120.pt",
-    "best.pt"
-  ]
+  "test_mAP50": 0.9475,
+  "test_mAP50_95": 0.6359,
+  "production_ready": true,
+  "status": "DONE"
 }
